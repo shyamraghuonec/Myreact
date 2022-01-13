@@ -80,12 +80,12 @@ export default function Textform(props) {
                         id="textarea" cols="30" rows="10"></textarea>
                   <div id="emailHelp" className="form-text">We'll never share your text with anyone else.</div>
 
-                  <button type="submit" onClick={toUpper} className="btn btn-primary my-3">Convert into UpperCase</button>
-                  <button type="submit" onClick={toLower} className="btn btn-primary mx-3">Convert into LowerCase</button>
-                  <button type="submit" onClick={clear} className="btn btn-primary">Clear Text</button>
-                  <button type="submit" onClick={title} className="btn btn-primary mx-3">Title Case</button>
-                  <button type="submit" onClick={copy} className="btn btn-primary ">Copy Text</button>
-                  <button type="submit" onClick={removeExtraSpaces} className="btn btn-primary mx-3 ">RemoveExtraSpaces</button>
+                  <button type="submit" onClick={toUpper} className="btn btn-primary my-3 mb-5">Convert into UpperCase</button>
+                  <button type="submit" onClick={toLower} className="btn btn-primary mx-3 mb-5">Convert into LowerCase</button>
+                  <button type="submit" onClick={clear} className="btn btn-primary mb-5">Clear Text</button>
+                  <button type="submit" onClick={title} className="btn btn-primary mx-3 mb-5">Title Case</button>
+                  <button type="submit" onClick={copy} className="btn btn-primary mb-5">Copy Text</button>
+                  <button type="submit" onClick={removeExtraSpaces} className="btn btn-primary mx-3 mb-5">RemoveExtraSpaces</button>
 
                   <h1 className='my-3'>Your Text Summary</h1>
                   <p><b>{text.split(' ').length}</b> words and <b>{text.length}</b> characters</p>
