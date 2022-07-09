@@ -25,23 +25,23 @@ export default function Navbar(props) {
 
       }
 
-      const setRedColor = ()=>{
-            document.body.style.backgroundColor = 'rgb(51 1 1)'
-            document.body.style.color = 'white'
-            let getForColor = document.querySelector('.getForColor')
-            getForColor.style.background = 'red'
-            document.title = 'TextUtils - Redes Mode'
+//       const setRedColor = ()=>{
+//             document.body.style.backgroundColor = 'rgb(51 1 1)'
+//             document.body.style.color = 'white'
+//             let getForColor = document.querySelector('.getForColor')
+//             getForColor.style.background = 'red'
+//             document.title = 'TextUtils - Redes Mode'
 
-      }
+//       }
       
-      const setYellowColor =()=>{
-            document.body.style.backgroundColor = 'rgb(104 104 104 / 70%)'
-            document.body.style.color = 'white'
-            let getForColor = document.querySelector('.getForColor')
-            getForColor.style.background = 'rgb(104 104 104)'
-            document.title = 'TextUtils - Sky Mode'
+//       const setYellowColor =()=>{
+//             document.body.style.backgroundColor = 'rgb(104 104 104 / 70%)'
+//             document.body.style.color = 'white'
+//             let getForColor = document.querySelector('.getForColor')
+//             getForColor.style.background = 'rgb(104 104 104)'
+//             document.title = 'TextUtils - Sky Mode'
 
-      }
+//       }
 
       return (
             <div>
@@ -106,17 +106,19 @@ export default function Navbar(props) {
   <label className="form-check-label" htmlFor="flexRadioDefault1">
   setDarkColor
   </label>
-</div><div className="form-check mx-5">
+</div>
+{/*<div className="form-check mx-5">
   <input className="form-check-input" onClick={setRedColor} type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
   <label className="form-check-label" htmlFor="flexRadioDefault1">
   setRedColor
   </label>
-</div><div className="form-check mx-5">
+</div>
+<div className="form-check mx-5">
   <input className="form-check-input" onClick={setYellowColor} type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
   <label className="form-check-label" htmlFor="flexRadioDefault1">
   setYellowColor
   </label>
-</div>
+</div>*/}
 
 
 
